@@ -6,13 +6,26 @@
     <div class="row">
         <div class="jumbotron">
             <center>
-            <h1>Welcome</h1>
-            <p>Upload an image and let us tell you what it is about. Well, who said machine can't behave like a human.</p>
+            <h1>{{ imageName }}</h1>
+            <p>This is what our alogorithm Predicts. Not what it is? We are still improving. </p>
             </center>
         </div>
     </div>
 </div>
+<center>
+<div class="bd-example">
+<a class="btn btn-warning" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+Click here to see more description
+  </a>
 
+  <div class="collapse" id="collapseExample">
+  <div class="card card-block">
+    {{ description }}
+    </div>
+</div>
+</div>
+</center>
+<div class="container">
 <form action="/upload_pic/" method="post" enctype="multipart/form-data">
 {% csrf_token %}
     <center>
@@ -24,5 +37,5 @@
     <button type="submit" class="btn btnSubmit btn-default">Submit</button>
     </center>
 </form>
-
+</div>
 {% endblock %}

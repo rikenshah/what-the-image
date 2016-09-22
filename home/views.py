@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.contrib.auth.decorators import login_required
 from utilities import imClassify
 from utilities import duckduckGo
@@ -46,6 +46,6 @@ def upload_pic(request):
             if os.path.isfile(imagePath):
                 os.remove(imagePath)
 
-            return HttpResponse('image upload success : '+description)
+            return render(request,'result.html',{'imageName':nameOfTopic, 'description':description})
     return HttpResponseForbidden('allowed only via POST')
 

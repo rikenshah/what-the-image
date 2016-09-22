@@ -1,0 +1,44 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2c3e50;
+}
+
+.footerText {
+	float: right;
+}
+
+.btnSubmit {
+	margin-bottom: 5em;
+}
+
+.footerContainer{
+	padding-top: 1.25em;
+}
+
+.card-block {
+	padding: 1.25rem;
+}
+
+.card {
+	position: relative;
+	display: block;
+	margin-bottom: .75rem;
+	background-color: #fff;
+	border-radius: .25rem;
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: .2rem;
+}
+
+#collapseExample {
+	padding-top: 2em;
+}
