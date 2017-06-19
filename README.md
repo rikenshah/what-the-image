@@ -6,18 +6,18 @@ The project is hosted here : [What the image](http://whattheimage.herokuapp.com/
 ### How it works 
 1. User uploads an image :
 
-![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/screenshots/one.png)
+<kbd>![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/screenshots/one.png)</kbd>
 
 The uploaded image :
-![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/teapot.png)
+<kbd>![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/teapot.jpg)</kbd>
 
 2. The results :
 
-![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/screenshots/two.png)
+<kbd>![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/screenshots/two.png)</kbd>
 
 3. To see description of the object, user clicks on _View Description_ :
 
-![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/screenshots/three.png)
+<kbd>![normal](https://raw.githubusercontent.com/rikenshah/what-the-image/master/screenshots/three.png)</kbd>
 
 ### Technologies used : 
 1. _Django_ : Django is a python's framework for developing web applications. To know more about Django, visit here [Django documentation](https://docs.djangoproject.com/en/1.11/)
